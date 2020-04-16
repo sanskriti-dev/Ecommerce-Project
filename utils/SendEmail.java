@@ -19,7 +19,7 @@ public class SendEmail {
 
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
-        mailMessage.setFrom("sanskriti.saluja98@gmail.com");
+        mailMessage.setFrom("sanskriti.saluja@ttn.com");
         mailMessage.setTo(sendTo);
         mailMessage.setSubject(subject);
         mailMessage.setText(body);
