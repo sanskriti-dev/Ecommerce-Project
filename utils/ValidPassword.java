@@ -1,12 +1,11 @@
 package com.tothenew.ecommerceapp.utils;
 
+import org.springframework.stereotype.Service;
 
+@Service
 public class ValidPassword {
     public static boolean isValidPassword(String password) throws NullPointerException
     {
-
-        // for checking if password length
-        // is between 8 and 15
         if (!((password.length() >= 8)
                 && (password.length() <= 15))) {
             return false;

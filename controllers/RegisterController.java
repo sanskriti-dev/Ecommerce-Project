@@ -17,8 +17,6 @@ public class RegisterController {
     @Autowired
     UserRegisterService userRegisterService;
 
-
-
     @PostMapping("register/customer")
     String registerCustomer(@Valid @RequestBody Customer customer, HttpServletResponse httpServletResponse) {
 
